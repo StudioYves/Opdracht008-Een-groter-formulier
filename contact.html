@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grootmoeders receptensite</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="menu"><a href="index.html">home</a></li>
+                <li class="menu"><a href="about.html">over Grootmoeder</a></li>
+                <li class="menu"><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="h1font"> Contact </h1>
+    </header>
+    <main>
+        <h2 id="ondertitel">Vul onderstaand formulier in om contact op te nemen</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <label>Naam  </label> <input type="text" name="naam" placeholder="Vul hier je naam in" /><br>
+            <label>E-mail  </label><input type="email" name="email" placeholder="Vul hier je e-mail adres in" /><br>
+            <label>Telefoon  </label><input type="tel" name="telephone" placeholder="Vul hier je telefoonnummer in"/><br>
+            <label>Leeftijd  </label><input type="number" name="age" placeholder="Vul hier je leeftijd in" />
+            <label>Geboortedatum </label><input type="date" name="geboortedatum"/><br>
+            <label>Geslacht</label><br>
+            <input type="radio" class="radio" id="radio" name="gender" value="man"><label for="man">Man</label><br>
+            <input type="radio" class="radio" name="gender" value="vrouw"/><label for="vrouw">Vrouw</label><br>
+            <input type="radio" class="radio" name="gender" value="anders"/><label for="anders">Anders</label><br>
+
+            <label>Favoriete cuisine</label><br>
+            <input type="checkbox" class="checkbox" name="cuisine1" value="frans"><label for="frans">Frans</label><br>
+            <input type="checkbox" class="checkbox" name="cuisine2" value="italiaans"/><label for="italiaans">Italiaans</label><br>
+            <input type="checkbox" class="checkbox" name="cuisine3" value="spaans"/><label for="spaans">Spaans</label><br>
+            <input type="checkbox" class="checkbox" name="cuisine4" value="arabisch"/><label for="arabisch">Arabisch</label><br>
+            
+            <label>Favoriete kleur</label>
+            <input type="color" class="favcolor" name="favcolor"/><br>
+
+            <label>Biografie</label><br>
+            <textarea name="biografie" placeholder="Typ hier je tekst" rows="7"></textarea><br>
+
+            <label>Upload je laatste recept</label><br>
+            <input type="file" name="myrecipe"/><br>
+            
+            <label>Url naar je recepten website</label><br>
+            <input type="url" name="homepage"><br>
+
+            <input class="btn" type="reset" value="Formulier resetten">
+
+            <input class="btn" type="submit">
+        </form>
+    </main>
+    <p id="link-back">Via <a href="index.html">deze link</a> ga je terug naar de home pagina</p>
+    <footer class="footer-color">
+        <p id="footer">Copyright: Grootmoeder Inc.</p>
+    </footer>
+</body>
+
+</html>

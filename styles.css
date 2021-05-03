@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    background-color: lavender;
+    color:darkslategrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+label {
+    line-height: 30px;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+.radio, .checkbox, .favcolor {
+    width: 20px;
+}
+
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.menu {
+    display: inline-table;
+    margin: 0 4px;
+}
+
+header {
+    border: 3px blue solid;
+    margin: 20px;
+}
+
+nav {
+    background-color:hotpink;
+    padding: 10px;
+}
+
+.black-border {
+    border: 5px dotted black;
+    
+    padding: 20px;
+}
+
+main {
+    background-color:lavender;
+    border: 3px blue solid;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+}
+
+#link-back {
+    text-align: center;
+}
+
+footer {
+    border: 3px blue solid;
+    margin: 20px;
+    padding: 5px 0;
+   
+}
+
+.h1font {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    color:lightseagreen;
+    padding-left: 20px;
+}
+#ondertitel {
+    color: rgb(0, 99, 160);
+}
+
+#footer {
+    text-align: center;
+}
+
+.footer-color {
+    background-color: lemonchiffon;
+}
+
+/* CSS MEDIA QUERIES */
+
+@media (min-width: 1020px){
+    body {
+        background-color:darkseagreen;
+        line-height: 40px;
+    }
+    .h1font {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 24px;
+    }
+    li {
+        font-size: 24px;
+    }
+
+
+
+
+}
+
+
+
